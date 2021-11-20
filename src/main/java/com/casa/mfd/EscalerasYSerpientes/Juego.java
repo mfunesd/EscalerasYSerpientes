@@ -24,6 +24,7 @@ public class Juego {
 		//Inicializamos retorno1Com a 0 para controlar que el jugador vuelve a la casilla 1 por sacar 3 seises seguidos
 		int retorno1Com = 0;
 		//Imprimimos el tablero inicial
+		System.out.println("Juego sin parámetros");
 		System.out.println("Jugador = XX ------------- Computadora = ##");
 		System.out.println("Tablero inicial");
 		Tablero.tablero(posJug,posCom);
@@ -186,6 +187,7 @@ public class Juego {
 		//Inicializamos retorno1Com a 0 para controlar que el jugador vuelve a la casilla 1 por sacar 3 seises seguidos
 		int retorno1Com = 0;
 		//Imprimimos el tablero inicial
+		System.out.println("Juego con parámetros");
 		System.out.println("Jugador = XX ------------- Computadora = ##");
 		System.out.println("Tablero inicial");
 		Tablero.tablero(posJug,posCom);
